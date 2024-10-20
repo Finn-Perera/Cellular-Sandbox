@@ -1,0 +1,61 @@
+/* CSS for the side panel */
+.side-panel {
+    -fx-background-color: rgb(152, 151, 151);
+    -fx-padding: 10;
+    -fx-font-family: Cambria;
+}
+
+.button-pane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-orientation: horizontal;
+}
+
+.button {
+    -fx-font-size: 14;
+    -fx-font-family: Cambria;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-background-color: #5d6961;
+    -fx-text-fill: #ffffff;
+}
+
+.button:hover {
+    -fx-background-color: #a24165;
+}
+
+.button:focused {
+    -fx-background-color: #982048;
+}
+
+
+.brush-pane {
+    -fx-padding: 0;
+    -fx-hgap: 20;
+    -fx-vgap: 10;
+    -fx-orientation: horizontal;
+}
+
+.brush-button {
+    -fx-font-size: 14;
+
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-background-color: #5d6961;
+    -fx-text-fill: #ffffff;
+}
+
+.brush-button:pressed {
+}
+
+.brush-count {
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+
+.title {
+    -fx-padding: -5;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+

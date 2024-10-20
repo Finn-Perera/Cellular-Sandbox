@@ -1,0 +1,12 @@
+Things to focus on:
+- Implementing new elements
+- Implementing velocity/acceleration
+- Developing a UI   DONE
+
+Areas to change:
+- Maybe I should make the update within the particle itself
+- Should gravity take in 1 particle, get its velocity and then call swap
+  based on a calculation of how many pixels it will use (if falling at 2, check 2 places ahead for empty
+  if not get the ones before that.)
+- Varying colours? Could I add a randomish modifier to the creation of objects' colours
+- Add gasses/liquids/solids?
