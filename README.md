@@ -9,8 +9,7 @@ Within the sandbox you can manipulate particles such as: *Water*, *Sand*, *Rock*
 the rules of individual particles, however they branched in complexity and the use of abstract Particles along with some use of Interfaces was used to
 contain and reduce repeated code.
 
-<img src="https://github.com/Finn-Perera/Cellular-Sandbox/blob/ReadMe-branch/Cellular%20Sandbox.gif" width="400" height="400" alt="Cellular-Sandbox Demonstration" />
-
+https://github.com/user-attachments/assets/839dbb48-6494-4fd1-b17a-5c32c7e8e985
 
 <h3> Motivation </h3>
 
