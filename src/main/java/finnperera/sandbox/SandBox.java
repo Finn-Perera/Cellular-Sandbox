@@ -39,6 +39,10 @@ public class SandBox extends Application {
     private Timeline tickTimeLine;
     private MouseEvent currentMouseEvent;
 
+    public static void main(String[] args) {
+        Application.launch(args);
+    }
+
     @Override
     public void start(Stage primaryStage) {
         Canvas canvas = new Canvas(CANVAS_WIDTH, CANVAS_HEIGHT);
@@ -261,7 +265,5 @@ public class SandBox extends Application {
         }
     }
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+
 }

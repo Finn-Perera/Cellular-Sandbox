@@ -6,7 +6,7 @@
 
     <groupId>finnperera</groupId>
     <artifactId>SandBox</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>SandBox</name>
 
     <properties>
@@ -23,6 +23,11 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
+            <version>17.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
             <version>17.0.2</version>
         </dependency>
 
@@ -60,7 +65,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>finnperera.sandbox/finnperera.sandbox.HelloApplication</mainClass>
+                            <mainClass>finnperera.sandbox.Main</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
@@ -70,6 +75,18 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>finnperera.sandbox.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
             </plugin>
         </plugins>
     </build>
